@@ -1,0 +1,12 @@
+{application, erlang_tcp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlang_tcp_app, []}},
+  {env, []}
+ ]}.
